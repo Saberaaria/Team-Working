@@ -15,8 +15,11 @@
     ul {
         background-color: rgba(4, 117, 155, 0.458);
         list-style-type: none;
-        display: flex;
+        /* display: flex; */
 
+    }
+    nav{
+      height: 60px;
     }
 
     a {
@@ -39,9 +42,10 @@
         color: black;
     }
 
-    h1 {
+    #head2 {
         color: white;
         width: 41%;
+        display: inline-block;
         margin-left: 80px;
         padding-top: 9px;
         font-size: 50px;
@@ -97,14 +101,6 @@
       background-repeat: no-repeat;
       background-size: cover;
   }
-  h1{
-      color: rgb(255, 254, 254);
-      text-align: center;
-      margin-top: 200px;
-      
-      font-size: 55px;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
   p{
       width: 50%;
       text-align: center;
@@ -127,6 +123,13 @@
       border: 3px  solid white;
       color: white;
   }
+  #head1{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-top: 200px;
+  }
 </style>
 
 <body>
@@ -134,8 +137,7 @@
    <div class="div">
       <i class="fa-clock fa clock icon"> <span>8:00 - 9:00 Mon-Fri</span></i>
       <i class="fa-phone fa phone icon1">
-        <span>+123 456 7890 For appointment</span></i
-      >
+        <span>+123 456 7890 For appointment</span></i>
       <i class="fab twitter fa-twitter icon2"></i>
       <i class="fab facebook fa-facebook icon3"></i>
       <i class="fab linkedin fa-linkedin icon4"></i>
@@ -145,7 +147,7 @@
     <nav>
 
         <ul>
-            <H1>CONFER</H1>
+            <H1 id="head2">CONFER</H1>
             <li><a href="">HOME</a></li>
             <li><a href="">ABOUT</a></li>
             <li><a href="">Services</a></li>
@@ -156,7 +158,7 @@
         </ul>
     </nav>
   
-  <h1>Fastest Way to Achieve Success</h1>
+  <h1 id="head1">Fastest Way to Achieve Success</h1>
   <p>Lorem ipsum dolor sit amet consectetumr adipisicing elit. Quasi consequuntur ab ea esse voluptates iusto sint quaerat! 
     Hic illum fugiat ex recusandae animi, aliquid sit obcaecati odio fugit consectetur at?</p>
   
